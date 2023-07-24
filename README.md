@@ -1,16 +1,27 @@
-### Hi there 👋
+# Hello there 👋
 
-<!--
-**ribs351/ribs351** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```cs
+using System;
+using System.Collections.Generic;
 
-Here are some ideas to get you started:
+public class BackendDeveloper
+{
+    public string Name { get; set; } = "ribs351";
+    public string Role { get; set; } = "Junior Backend Developer";
+    public List<string> LanguageSpoken { get; set; } = new List<string> { "vi_VN", "en_US" };
+    public string[] DevelopmentLanguages { get; set; } = { "C#", "Java", "JavaScript", "HTML", "CSS" };
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    public void SayHi()
+    {
+        Console.WriteLine("Thanks for dropping by, have a safe and productive day!");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        var me = new BackendDeveloper();
+        me.SayHi();
+    }
+}
