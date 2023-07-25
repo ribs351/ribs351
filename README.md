@@ -8,8 +8,9 @@ public class BackendDeveloper
 {
     public string Name { get; set; } = "ribs351";
     public string Role { get; set; } = "Junior Backend Developer";
-    public List<string> LanguagesSpoken { get; set; } = new List<string> { "vi_VN", "en_US" };
+    public List<string> SpokenLanguages { get; set; } = new List<string> { "vi_VN", "en_US" };
     public string[] DevelopmentLanguages { get; set; } = { "C#", "Java", "JavaScript", "HTML", "CSS" };
+    public string[] Hobbies { get; set; } = { "Coding", "Jogging", "Hiking", "Video editing", "Making memes", "Playing video games" };
 
     public void SayHi()
     {
