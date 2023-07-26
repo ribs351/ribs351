@@ -7,6 +7,8 @@ using System.Collections.Generic;
 public class BackendDeveloper
 {
     public string Name { get; set; } = "ribs351";
+    public DateTime DateOfBirth { get; set; } = new DateTime(1997, 2, 16);
+    public string CurrentResidency { get; set; } = "Ho Chi Minh City, Vietnam";
     public string Role { get; set; } = "Junior Backend Developer";
     public List<string> SpokenLanguages { get; set; } = new List<string> { "vi_VN", "en_US" };
     public string[] DevelopmentLanguages { get; set; } = { "C#", "Java", "JavaScript", "HTML", "CSS" };
