@@ -4,7 +4,7 @@
 using System;
 using System.Collections.Generic;
 
-public class BackendDeveloper
+public sealed class BackendDeveloper
 {
     public string Name { get; set; } = "ribs351";
     public DateTime DateOfBirth { get; set; } = new DateTime(1997, 2, 16);
